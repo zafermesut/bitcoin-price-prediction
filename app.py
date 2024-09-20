@@ -6,12 +6,14 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
 import plotly.express as px
+import numpy as np
+np.float_ = np.float64
 from prophet import Prophet
 from prophet.plot import plot_plotly, plot_components_plotly
 
+
 st.title("Finance Data Analysis")
 ticker = st.text_input("Enter the ticker symbol (e.g., BTC-USD):")
-
 
 start_date = (datetime.now() - timedelta(days=365)).strftime('%Y-%m-%d')
 end_date = datetime.now().strftime('%Y-%m-%d')
