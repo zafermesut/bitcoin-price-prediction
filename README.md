@@ -1,5 +1,11 @@
 # Finance Data Analysis
 
+## Screenshots
+
+| ![Screenshot 1](images/sc1.png) | ![Screenshot 2](images/sc2.png) |
+| :-----------------------------: | :-----------------------------: |
+| ![Screenshot 3](images/sc3.png) | ![Screenshot 4](images/sc4.png) |
+
 This project provides a web application for analyzing and forecasting financial data using the selected ticker symbol from various markets. Built with Streamlit, it allows users to select a symbol and obtain a one-year analysis and forecast.
 
 ## Features
