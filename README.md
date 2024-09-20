@@ -1,9 +1,5 @@
 # Finance Data Analysis
 
-<iframe  frameborder="0" 
-        style=" width: 100%; height: 110%;" src="https://huggingface.co/spaces/zafermbilen/bitcoin-price-prediction">
-</iframe>
-
 This project provides a web application for analyzing and forecasting financial data using the selected ticker symbol from various markets. Built with Streamlit, it allows users to select a symbol and obtain a one-year analysis and forecast.
 
 ## Features
